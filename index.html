@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+	<head>
+		<title>JukeBox</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css">
+		<link rel="stylesheet" href="styles/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Unica+One|Raleway" rel="stylesheet">
+	</head>
+	<body>
+
+		<!-- FIXED MENU -->
+
+		<div class="ui compact vertical labeled icon menu">
+  			<a class="item">
+    			<i class="home icon"></i>
+    			home.
+  			</a>
+  			<a class="item">
+    			<i class="heart icon"></i>
+    			favorites.
+  			</a>
+  			<a class="item">
+    			<i class="video play icon"></i>
+    			playlists.
+  			</a>
+		</div>
+
+		<div class="name-title">Music Your Way <i class="music icon"></i> </div>
+    	
+   
+		<div class="ui fluid action input">
+			<input type="text" placeholder="Search..." class="js-input">
+			<div class="ui primary button js-search"><i class="search icon"></i></div>
+		</div>
+	
+
+		<!-- END FIXED MENU
+		<! MAIN CONTENT GRID -->
+		
+		<div class= "maincontent">
+			
+			<div class="js-searchresult">
+				
+			</div>
+		</div>
+
+
+		<div class="ui sidebar right inverted vertical menu visible">
+
+			<h1> your JUKEbox.</h1>
+			<div class="ui divided items js-playlist">
+
+			</div>
+		</div>
+		<div class="pusher">
+		</div>
+
+		
+		<!-- END MAIN CONTENT GRID -->
+
+
+
+		<script src="javascript/queue.js"></script>
+		<script src="javascript/jukebox.js"></script>
+		<script src="javascript/SpotifyAPI.js"></script>
+
+
+	</body>
+</html>
